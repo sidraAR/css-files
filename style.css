@@ -1,0 +1,323 @@
+:root{
+    --green:#729410
+}
+/* Add your CSS styles here */
+        /* For demonstration purposes, some basic styling is included */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 0;
+       
+             text-align: center;
+            
+        }
+        .icon1{
+            padding: 5px;
+            background-color: #444;
+            border-radius: 50%;
+        }
+        .icon2{
+            padding: 5px;
+            background-color: #444;
+            border-radius: 50%;
+        }
+        .icon3{
+            padding: 5px;
+            background-color: #444;
+            border-radius: 50%;
+        }
+        .icon4{
+            padding: 5px;
+            background-color: #444;
+            border-radius: 50%;
+        }
+        .icon5{
+            padding: 5px;
+            background-color: #444;
+            border-radius: 50%;
+        }
+        
+    
+
+         nav {
+            
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center; 
+        }
+         .logo img{
+            
+            width: 80px;
+            height: 70px;
+            
+        } 
+        
+        
+        .slider {
+            padding-top: 20px;
+            color: white;
+            text-align: center;
+            width: 100%;
+            height: 300px;
+            background-color: #a8c41d;
+            animation: example 5s infinite ;
+            
+        }
+        @keyframes example{
+            0%{background-color: green;
+
+            }
+            100%{background-color: #a8c41d;
+
+            }
+            
+        }
+        .read{
+        
+            font-weight: bold;
+            background-color: orange;
+            padding: 10px;
+            border-radius: 5px;
+            border-color: orange;
+        }
+        .read:hover{
+            color: #fffefe;
+        }
+        .content {
+            
+            justify-content: space-between;
+            margin: 20px;
+        
+
+        }
+    
+        
+
+        
+        .content > div {
+            
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+        }
+
+        nav {
+        
+            display: flex; /* Use flexbox for horizontal layout */
+            /* justify-content: flex-end; */
+            color: #090808;
+            background-color: #fffefe; /* Set the background color */
+        }
+        .nav-bar{
+            display: flex;
+            align-items: center;
+    
+    
+            
+        }
+    
+        
+        
+
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Use flexbox for horizontal layout */
+            
+        }
+
+        nav ul li {
+            padding: 10px 20px; /* Add padding to each list item */
+            margin-left: 30px;
+        } 
+       
+
+        li {
+            font-weight: bold;
+        }
+
+        nav ul li:hover {
+            border-bottom: 3px solid orange;
+             /* Change border  color on hover */
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 15px;
+            
+        }
+        .number i{
+            color:green;
+            margin: 5px;
+        }
+        .content1{
+            padding-top: 10px;
+            background-color: #e5e4e2;
+            padding-bottom: 20px;
+        }
+        .discription{
+        
+            padding: 20px;
+            
+            width: 40%;
+            
+        }
+        .picture{
+            background-color: #d1d0ce;
+            padding: 10px;
+            
+            animation: example2 2s ease-in 5;
+ }
+     @keyframes example2 {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
+    
+        .picture img{
+            width: 400px;
+            height: 400px;
+        }
+        .read1{
+            font-weight: bold;
+            background-color: orange;
+            padding: 10px;
+            border-radius: 5px;
+            border-color: orange;
+        }
+        .read1:hover{
+            color: #fffefe;
+        }
+
+
+        .main{
+            display: flex;
+            justify-content: center;
+            
+        
+        }
+
+        .call-button {
+            background-color: rgb(131, 222, 131);
+            color: #090808;
+            margin-left: 10px;
+            padding: 5px;
+            border-radius: 5px; /* Add margin to separate button from numbers */
+        }
+        .card-img-top {
+            /* Add any additional styling for the image here */
+        }
+
+        /* If you want to apply a specific width and height to the circular image */
+        .rounded-circle {
+            width: 150px; /* Adjust width as needed */
+            height: 150px; /* Adjust height as needed */
+            object-fit: cover; /* Preserve aspect ratio and crop if necessary */
+            border-radius: 50%; /* Make the image round */
+        }
+        .advantage{
+            display: flex;
+            animation: example1 3s ease-in-out infinite;
+            
+        }
+    
+    @keyframes example1{
+        0%{background-color: white;
+
+        }
+        100%{background-color: #a8c41d;
+
+        }
+    }
+        .card-title{
+         text-align:center; 
+        }
+    
+        
+        .card {
+            display: block;
+            justify-content: center;
+        width: 18rem; /* Set the width of each card */
+        margin: 10px; /* Add some margin between cards */
+        }
+        .main-container{
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            
+        }
+        FOOTER{
+            width: 100%;
+            height: 600px;
+            background-color: black;
+            padding: 5px;
+        }
+        footer p{
+            text-align: center;
+            padding: 0px;
+        }
+        .list ul{
+            list-style-type: none;
+            display: flex;
+        justify-content: space-around;
+        }
+        .list ul li{
+            
+            color: white;
+        }
+        .list ul li:hover{
+            color: orange;
+            transition: 2s;
+        }
+        .box{
+        
+            float: left;
+        
+        }
+        img{
+            width:200px;
+            height: 200px;
+        }
+        .main-box{
+            display: block;
+            justify-content: center;
+        }
+
+        @media screen and (min-width: 768px) {
+       
+            .col-md-2 {
+            flex: 0 0 20%; /* Set the width of each column to fit 5 cards in one row */
+            max-width: 20%; /* Set the maximum width of each column */
+        }
+        .card-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .circle-icon {
+            width: 3rem;
+            height: 3rem;
+            background-color: orange;
+            border-radius: 50%;
+            position: absolute;
+            top: -1.5rem; /* Half of the height of the circle */
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+}
